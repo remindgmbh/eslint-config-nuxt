@@ -1,0 +1,28 @@
+{
+  "name": "@remindgmbh/eslint-config-nuxt",
+  "version": "1.0.0",
+  "author": "David Mellen <d.mellen@remind.de>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remindgmbh/eslint-config-nuxt"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.1"
+  },
+  "volta": {
+    "node": "16.17.0",
+    "yarn": "1.22.19"
+  }
+}
