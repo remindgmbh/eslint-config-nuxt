@@ -39,12 +39,4 @@ module.exports = {
             },
         ],
     },
-    overrides: [
-        {
-            files: ['**/pages/**/*.vue'],
-            rules: {
-                'vue/multi-word-component-names': 'off',
-            },
-        },
-    ],
 }
