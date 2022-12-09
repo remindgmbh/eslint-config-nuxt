@@ -23,12 +23,6 @@ module.exports = {
                 semi: false,
             },
         ],
-        'no-console': [
-            'warn',
-            {
-                allow: ['warn', 'error'],
-            },
-        ],
         'import/namespace': [
             2,
             {
