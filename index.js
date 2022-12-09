@@ -16,9 +16,6 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-empty-function': 'off',
-        'vue/no-v-for-template-key': 'off',
-        'vue/no-multiple-template-root': 'off',
-        'vue/no-v-model-argument': 'off',
         'prettier/prettier': [
             'error',
             {
