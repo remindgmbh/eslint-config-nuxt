@@ -33,7 +33,14 @@ module.exports = {
                 allowSeparatedGroups: true,
             },
         ],
-        'sort-keys': ['error', 'asc', { natural: true }],
+        'sort-keys': [
+            'error',
+            'asc',
+            {
+                allowLineSeparatedGroups: true,
+                natural: true,
+            },
+        ],
         yoda: ['error', 'never'],
     },
 }
