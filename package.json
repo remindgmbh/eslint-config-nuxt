@@ -3,12 +3,13 @@
   "version": "0.0.0-development",
   "author": "David Mellen <d.mellen@remind.de>",
   "license": "BSD-3-Clause",
-  "main": "index.js",
+  "main": "index.cjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/remindgmbh/eslint-config-nuxt.git"
   },
   "scripts": {
+    "static-analysis": "eslint --ext \".cjs\" .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
