@@ -41,6 +41,12 @@ module.exports = {
                 natural: true,
             },
         ],
+        'vue/attributes-order': [
+            'error',
+            {
+                alphabetical: true,
+            },
+        ],
         yoda: ['error', 'never'],
     },
 }
