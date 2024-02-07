@@ -1,11 +1,14 @@
 module.exports = {
-    extends: ['@nuxt/eslint-config', 'plugin:prettier/recommended'],
+    extends: [
+        'plugin:@typescript-eslint/strict',
+        '@nuxt/eslint-config',
+        'plugin:prettier/recommended',
+    ],
     root: true,
     rules: {
         '@typescript-eslint/default-param-last': 'error',
-        '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/no-explicit-any': 'off',
-        '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-unused-vars': [
             'warn',
             {
