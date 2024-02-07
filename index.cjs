@@ -7,7 +7,6 @@ module.exports = {
     root: true,
     rules: {
         '@typescript-eslint/default-param-last': 'error',
-        '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-unused-vars': [
             'warn',
