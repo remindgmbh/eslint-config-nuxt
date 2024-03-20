@@ -22,6 +22,7 @@ module.exports = {
         'no-duplicate-imports': 'error',
         'no-multi-assign': 'error',
         'object-shorthand': ['error', 'always'],
+        'prefer-template': ['error'],
         'prettier/prettier': [
             'error',
             {
@@ -49,6 +50,41 @@ module.exports = {
                 alphabetical: true,
             },
         ],
+        'vue/block-lang': ['error', { script: { lang: 'ts' } }],
+        'vue/block-order': [
+            'error',
+            { order: ['template', 'script', 'style'] },
+        ],
+        'vue/component-name-in-template-casing': [
+            'error',
+            'PascalCase',
+            {
+                registeredComponentsOnly: false,
+            },
+        ],
+        'vue/define-emits-declaration': ['error'],
+        'vue/define-macros-order': ['error'],
+        'vue/eqeqeq': ['error', 'smart'],
+        'vue/html-self-closing': [
+            'error',
+            {
+                html: {
+                    component: 'always',
+                    normal: 'never',
+                    void: 'never',
+                },
+                math: 'always',
+                svg: 'always',
+            },
+        ],
+        'vue/no-static-inline-styles': ['error'],
+        'vue/no-unused-emit-declarations': ['error'],
+        'vue/no-unused-properties': ['error'],
+        'vue/no-unused-refs': ['error'],
+        'vue/padding-line-between-blocks': ['error'],
+        'vue/prefer-template': ['error'],
+        'vue/require-macro-variable-name': ['error'],
+        'vue/require-typed-ref': ['error'],
         yoda: ['error', 'never'],
     },
 }
