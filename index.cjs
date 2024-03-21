@@ -71,10 +71,10 @@ module.exports = {
                 html: {
                     component: 'always',
                     normal: 'never',
-                    void: 'never',
+                    void: 'always',
                 },
-                math: 'always',
-                svg: 'always',
+                math: 'never',
+                svg: 'never',
             },
         ],
         'vue/no-static-inline-styles': ['error'],
