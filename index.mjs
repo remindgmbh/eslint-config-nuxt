@@ -62,7 +62,7 @@ export function createConfigForNuxt(options, ...userConfigs) {
                         registeredComponentsOnly: false,
                     },
                 ],
-                'vue/define-emits-declaration': ['error'],
+                'vue/define-emits-declaration': ['error', 'type-literal'],
                 'vue/define-macros-order': ['error'],
                 'vue/eqeqeq': ['error', 'smart'],
                 'vue/html-self-closing': [
